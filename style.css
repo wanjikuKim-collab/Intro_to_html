@@ -1,0 +1,85 @@
+/* Navigation Bar */
+*{
+    margin: 0;/* removes margin and padding of all components*/
+    padding: 0;
+}
+body{
+    background-color:rgb(241, 239, 239) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navBar{
+    background-color: rgb(181, 181, 181);
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navBar a{
+    text-decoration: none;
+    color: rgb(120, 37, 1);
+}
+#navBar a:hover{
+    color: rgb(148, 93, 70);
+}
+#navBar ul{
+    list-style: none;
+}
+
+#navBar li{
+    font-size: 20px;
+    display: inline;
+    padding: 20px;
+}
+
+/* landing page */
+.landing-page{
+    display: flex;
+    height:90vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.landing-page.left{
+    width: 50%;
+    text-align: center;
+}
+
+.landing-page.left img{
+    width: 50%;
+}
+
+.landing-page.right{
+    width:50%;
+}
+
+.right h1{
+font-size: 80px;
+}
+
+.right p{
+    font-size: 40px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+footer div{
+width :33%;
+}
+
+footer ul{
+    list-style: none;
+    
+}
+
+footer ul li{
+    padding: 20px;
+}
